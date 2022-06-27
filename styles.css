@@ -2,9 +2,18 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    margin: 0;
+    /*  background-color: #1F2937;  */
+}
+
+.header,
+.subheading,
+.info,
+.quote,
+.cta,
+.footer {
     padding-left: 200px;
     padding-right: 200px;
-    /*  background-color: #1F2937;  */
 }
 
 .header {
@@ -15,6 +24,8 @@ body {
     margin-bottom: 100px;
     background-color: #1F2937;
     padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header-links {
