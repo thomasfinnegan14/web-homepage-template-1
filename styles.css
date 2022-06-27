@@ -13,6 +13,8 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 100px;
+    background-color: #1F2937;
+    padding: 10px;
 }
 
 .header-links {
@@ -27,6 +29,6 @@ body {
 }
 
 img {
-    width: 150px;
+    width: 120px;
     height: auto;
 }
