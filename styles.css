@@ -1,6 +1,29 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
+    padding-left: 200px;
+    padding-right: 200px;
+    /*  background-color: #1F2937;  */
+}
+
+.header {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.header-links > a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 12px;
 }
 
 img {
