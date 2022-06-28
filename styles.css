@@ -155,3 +155,35 @@ img {
     font-family: Roboto, sans-serif;
     font-weight: bold;
 }
+
+/*      Call to Action      */
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cta > div {
+    display: flex;
+    background-color: #3C82F6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 90px;
+    padding-left: 90px;
+    justify-content: space-between;
+    gap: 120px;
+    border-radius: 10px;
+}
+
+.cta-head {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.cta-subhead {
+    font-size: 14px;
+    color: lightgray;
+}
