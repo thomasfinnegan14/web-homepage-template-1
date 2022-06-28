@@ -1,3 +1,4 @@
+/*      Body        */
 body {
     display: flex;
     flex-direction: column;
@@ -16,12 +17,12 @@ body {
     padding-right: 200px;
 }
 
+/*      Header      */
 .header {
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 100px;
     background-color: #1F2937;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -41,4 +42,38 @@ body {
 img {
     width: 120px;
     height: auto;
+    flex-shrink: 0;
+}
+
+/*      Subheading      */
+.subheading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 20px;
+    background-color: #1F2937;
+}
+
+.s-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.hero {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+
+.subheading > img {
+    width: 400px;
+    height: auto;
+}
+
+.subtext {
+    color: lightgray;
 }
