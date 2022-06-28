@@ -187,3 +187,12 @@ img {
     font-size: 14px;
     color: lightgray;
 }
+
+.cta-signup {
+    flex-shrink: 0;
+    background-color: #3C82F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 1px 32px;
+    color: white;
+}
