@@ -1,7 +1,6 @@
 # web-homepage-template-1
 A very basic website homepage.
-
-The CSS takes advantage of flexbox in order to style the entire page.
+This page was created entirely using flexbox to show the clean and simply designs that can be created with it.
 
 Credit to The Odin Project for the project idea.
 https://www.theodinproject.com/about
